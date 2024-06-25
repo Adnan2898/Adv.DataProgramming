@@ -47,6 +47,9 @@ data(mtcars)
 # will declare the same
 mtcars$car_name <- rownames(mtcars)
 
+# Print few entries of the dataset
+head(mtcars)
+
 # then will proceed with creating the ggplot
 plot <- ggplot(mtcars, aes(x = carb, y = mpg, color = car_name)) +
   geom_point(size = 3) +  # Plot the points
@@ -59,6 +62,10 @@ plot <- ggplot(mtcars, aes(x = carb, y = mpg, color = car_name)) +
 
 # Print the plot
 print(plot)
+
+
+
+
 ```
 
 ## Plot Description
