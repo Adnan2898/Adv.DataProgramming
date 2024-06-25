@@ -47,6 +47,9 @@ data(mtcars)
 # will declare the same
 mtcars$car_name <- rownames(mtcars)
 
+# Print the number of cars in the dataset
+(length(mtcars)
+
 # Print few entries of the dataset
 head(mtcars)
 
